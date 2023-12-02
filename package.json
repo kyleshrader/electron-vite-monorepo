@@ -3,7 +3,9 @@
   "private": true,
   "packageManager": "yarn@4.0.2",
   "scripts": {
-    "dev": "yarn workspace client dev"
+    "dev": "yarn workspace client dev",
+    "build": "yarn workspace client build",
+    "start": "yarn workspace client start"
   },
   "workspaces": [
     "packages/*",
