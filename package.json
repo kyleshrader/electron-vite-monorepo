@@ -2,6 +2,9 @@
   "name": "root",
   "private": true,
   "packageManager": "yarn@4.0.2",
+  "scripts": {
+    "dev": "yarn workspace client dev"
+  },
   "workspaces": [
     "packages/*",
     "apps/*"

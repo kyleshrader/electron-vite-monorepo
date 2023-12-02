@@ -1,0 +1,24 @@
+{
+    "include": [
+        "src/env.d.ts",
+        "src/**/*",
+        "src/**/*.tsx"
+    ],
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "target": "esnext",
+        "module": "esnext",
+        "sourceMap": false,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true
+    }
+}
