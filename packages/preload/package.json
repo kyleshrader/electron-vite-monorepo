@@ -6,6 +6,7 @@
     "types": "./src/index.ts",
     "devDependencies": {
         "@electron-toolkit/preload": "^2.0.0",
-        "api": "workspace:^"
+        "api": "workspace:^",
+        "electron": "^25.6.0"
     }
 }
