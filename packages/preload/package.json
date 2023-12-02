@@ -2,6 +2,9 @@
     "name": "preload",
     "version": "0.0.1",
     "private": true,
-    "main": "./out/index.js",
-    "types": "./out/index.d.ts"
+    "main": "./src/index.ts",
+    "types": "./src/index.ts",
+    "dependencies": {
+        "api": "workspace:^"
+    }
 }

@@ -1,6 +1,6 @@
 {
     "name": "api",
     "version": "0.0.1",
-    "main": "./out/index.js",
-    "types": "./out/index.d.ts"
+    "main": "./src/index.ts",
+    "types": "./src/index.ts"
 }

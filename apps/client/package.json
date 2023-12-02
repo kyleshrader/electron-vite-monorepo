@@ -2,13 +2,30 @@
     "name": "client",
     "version": "0.0.1",
     "private": true,
+    "main": "./out/main/index.js",
+    "scripts": {
+        "format": "prettier --write .",
+        "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
+        "typecheck:node": "tsc --noEmit -p tsconfig.node.json --composite false",
+        "typecheck:web": "tsc --noEmit -p tsconfig.web.json --composite false",
+        "typecheck": "npm run typecheck:node && npm run typecheck:web",
+        "start": "electron-vite preview",
+        "dev": "electron-vite dev",
+        "build": "npm run typecheck && electron-vite build",
+        "postinstall": "electron-builder install-app-deps",
+        "build:win": "npm run build && electron-builder --win --config",
+        "build:mac": "electron-vite build && electron-builder --mac --config",
+        "build:linux": "electron-vite build && electron-builder --linux --config"
+    },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.2.0",
+        "electron": "^25.6.0",
         "electron-builder": "24.9.1",
         "electron-vite": "^1.0.29",
         "main": "workspace:^",
         "preload": "workspace:^",
         "renderer": "workspace:^",
+        "typescript": "^5.3.2",
         "vite": "^4.4.9"
     },
     "installConfig": {
