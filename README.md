@@ -1,33 +1,22 @@
 # electron-vite-monorepo
 
-A yarn monorepo to demonstrate electron-vite.
+## Overview
+This repository demonstrates a minimal configuration monorepo using yarn with electron-vite, TypeScript, and React. It's based on the @quick-start/electron template, showcasing the core functionalities of electron-vite in a monorepo setup.
 
-Uses yarn + electron-vite + typescript + react.
+## Minimal Configuration
+⚠️ Note: This setup doesn't include all configurations and scripts from the quick-start template.
 
-This is a demonstration of a minimal configuration monorepo of electron-vite. I used the @quick-start/electron template as a guide.
+Consider adding:
+- ESLint and Prettier for code quality and formatting.
+- Version constraints for cross-package dependencies.
+- Monorepo management tools (e.g., NX, Lerna, Turbo).
+- Early build typechecking and enhanced tsconfig settings.
 
-# ⚠️ MINIMAL CONFIGURATION
+## Additional Tools (Optional)
+You may also explore integrating:
+- Testing with Jest.
+- UI development with Storybook.
+- UI libraries like Tailwind, Material-UI, Chakra UI, etc.
 
-This doesn't provide all configuration or scripts that are present in the quick-start template. I'd still recommend adding the following:
-
- - eslint
- - prettier
- - some cross-package dependency version constraints to keep dependencies the same versions
- - a monorepo management tool like nx, lerna, or turbo
- - typechecking at the beginning of the build
- - base tsconfigs
- - more tsconfig configuration (more rules)
-
-Other considerations may be:
-
- - jest
- - storybook
- - ui libraries
-    - tailwind
-    - material
-    - chakra
-    - etc
-
-# Support
-
-If you have any questions, ask in the issues or discussions boards.
+## Questions?
+For any inquiries or discussions, please use the issues or discussion boards.
