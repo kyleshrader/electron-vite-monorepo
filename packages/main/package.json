@@ -4,11 +4,9 @@
     "private": true,
     "main": "./src/index.ts",
     "types": "./src/index.ts",
-    "dependencies": {
-        "common": "workspace:^"
-    },
     "devDependencies": {
         "@electron-toolkit/utils": "^2.0.1",
+        "common": "workspace:^",
         "electron": "^25.6.0",
         "electron-vite": "^1.0.29"
     }
