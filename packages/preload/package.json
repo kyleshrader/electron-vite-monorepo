@@ -4,10 +4,8 @@
     "private": true,
     "main": "./src/index.ts",
     "types": "./src/index.ts",
-    "dependencies": {
-        "api": "workspace:^"
-    },
     "devDependencies": {
-        "@electron-toolkit/preload": "^2.0.0"
+        "@electron-toolkit/preload": "^2.0.0",
+        "api": "workspace:^"
     }
 }
