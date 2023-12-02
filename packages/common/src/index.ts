@@ -1,4 +1,1 @@
-export default {
-    name: 'common',
-    deps: []
-}
+export default {}
