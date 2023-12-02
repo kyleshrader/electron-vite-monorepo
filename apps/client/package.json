@@ -1,0 +1,17 @@
+{
+    "name": "client",
+    "version": "0.0.1",
+    "private": true,
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.2.0",
+        "electron-builder": "24.9.1",
+        "electron-vite": "^1.0.29",
+        "main": "workspace:^",
+        "preload": "workspace:^",
+        "renderer": "workspace:^",
+        "vite": "^4.4.9"
+    },
+    "installConfig": {
+        "hoistingLimits": "workspaces"
+    }
+}
